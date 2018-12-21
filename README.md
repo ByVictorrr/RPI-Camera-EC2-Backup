@@ -38,6 +38,7 @@ put ec2Script.sh .
 Text editor will apear type (This script will run ever day at 12 am) 
 
 0 0 * * * ~/ec2Script.sh
+
 0 0 1 * * rm -rf /var/www/html/Camera/*
 
 
