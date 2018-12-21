@@ -64,11 +64,10 @@ Text editor will apear type (This script will run ever day at 12 am)
 
 Go on to any web browser and type(of your ec2 instance): public_dns_name
 
-![ec2 pic 1](https://github.com/ByVictorrr/RPI-Camera-EC2-Backup/blob/master/images/ec2-1.jpg =100x20)
+<img src="https://github.com/ByVictorrr/RPI-Camera-EC2-Backup/blob/master/images/ec2-1.jpg" width="48" height="100">
 
-<img src="https://github.com/ByVictorrr/RPI-Camera-EC2-Backup/blob/master/images/ec2-1.jpg" width="48">
+<img src="https://github.com/ByVictorrr/RPI-Camera-EC2-Backup/blob/master/images/ec2-2.jpg" width="48" height="100">
 
-![ec2 pic 2](https://github.com/ByVictorrr/RPI-Camera-EC2-Backup/blob/master/images/ec2-1.jpg){:height="50%" width="50%"}
 
 ### Learned
 * rsync
