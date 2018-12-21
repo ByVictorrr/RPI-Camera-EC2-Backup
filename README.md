@@ -34,6 +34,8 @@ put ec2Script.sh .
 * sudo apt-get intall rsync
 * sudo apt-get install cron
 * crontab -e
+* service apache2 enable
+* service apache2 restart
 
 Text editor will apear type (This script will run ever day at 12 am) 
 
@@ -50,6 +52,10 @@ Text editor will apear type (This script will run ever day at 12 am)
 Text editor will apear type (This script will run ever day at 12 am) 
 
 0 0 * * * ~/RPI-Camera-EC2-Backup/rpiZeroScript.sh
+
+##### To download images/videos
+
+Go on to any web browser and type(of your ec2 instance): public_dns_name
 
 ### Learned
 * rsync
