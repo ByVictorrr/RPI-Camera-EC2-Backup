@@ -12,6 +12,8 @@ The script for the ec2 server makes a new directory with month - day - year.
 
 Every day at the same time (described in crontab) the rpi zero backs up the data to the ec2 server.
 
+Every month it deletes the old data on the ec2 server to make more space for the current month.
+
 ### Steps (Assuming a setup using https://github.com/silvanmelchior/RPi_Cam_Web_Interface)
 
 cd ~
@@ -36,6 +38,7 @@ put ec2Script.sh .
 Text editor will apear type (This script will run ever day at 12 am) 
 
 0 0 * * * ~/ec2Script.sh
+0 0 1 * * rm -rf /var/www/html/Camera/*
 
 
 #### For the RPI zero:
