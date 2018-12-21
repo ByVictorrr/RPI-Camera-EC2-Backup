@@ -12,7 +12,7 @@ The script for the ec2 server makes a new directory with month - day - year.
 
 Every day at the same time (described in crontab) the rpi zero backs up the data to the ec2 server.
 
-## steps
+## Steps (Assuming a setup using https://github.com/silvanmelchior/RPi_Cam_Web_Interface)
 
 cd ~
 
@@ -42,4 +42,9 @@ Text editor will apear type (This script will run ever day at 12 am)
 Text editor will apear type (This script will run ever day at 12 am) 
 
 0 0 * * * ~/RPI-Camera-EC2-Backup/rpiZeroScript.sh
+
+### Learned
+* rsync
+* cron
+
 
