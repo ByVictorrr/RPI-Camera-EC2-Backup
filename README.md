@@ -64,6 +64,10 @@ Text editor will apear type (This script will run ever day at 12 am)
 
 Go on to any web browser and type(of your ec2 instance): public_dns_name
 
+(ec2 pic 1)[]
+
+(ec2 pic 2)[]
+
 ### Learned
 * rsync
 * cron
