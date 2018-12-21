@@ -30,6 +30,12 @@ cd ~
 
 put ec2Script.sh .
 
+exit
+
+ssh i /path/my-key-pair.pem ec2-user@public_dns_name
+
+sudo mkdir /var/www/html/Camera
+
 #### For the server:
 * sudo apt-get intall rsync
 * sudo apt-get install cron
@@ -43,6 +49,7 @@ Text editor will apear type (This script will run ever day at 12 am)
 
 0 0 1 * * rm -rf /var/www/html/Camera/*
 
+exit
 
 #### For the RPI zero:
 * sudo apt-get intall rsync
