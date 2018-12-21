@@ -24,6 +24,10 @@ sudo chmod +x *.sh
 
 sftp -i /path/my-key-pair.pem ec2-user@public_dns_name
 
+cd ~
+
+put ec2Script.sh .
+
 #### For the server:
 * sudo apt-get intall rsync
 * sudo apt-get install cron
@@ -31,7 +35,7 @@ sftp -i /path/my-key-pair.pem ec2-user@public_dns_name
 
 Text editor will apear type (This script will run ever day at 12 am) 
 
-0 0 * * * ~/RPI-Camera-EC2-Backup/ec2Script.sh
+0 0 * * * ~/ec2Script.sh
 
 
 #### For the RPI zero:
