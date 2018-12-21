@@ -9,9 +9,13 @@ The script for the ec2 server makes a new director with month - yr - day every d
 ## steps
 
 cd ~
+
 git clone https://github.com/ByVictorrr/RPI-Camera-EC2-Backup
+
 cd RPI-Camera-EC2-Backup
+
 sudo chmod +x *.sh
+
 sftp -i /path/my-key-pair.pem ec2-user@public_dns_name
 
 ### For the server:
