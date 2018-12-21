@@ -1,4 +1,4 @@
-#EC2 addon to https://github.com/silvanmelchior/RPi_Cam_Web_Interface
+# EC2 addon to https://github.com/silvanmelchior/RPi_Cam_Web_Interface
 
 There are two scripts one for the ec2 server and one for the rpi zero.
 
