@@ -1,6 +1,6 @@
 # RPI Camera EC2 BACKUP
 
-This project was essentially a addon to https://github.com/silvanmelchior/RPi_Cam_Web_Interface.
+This project was essentially an addon to https://github.com/silvanmelchior/RPi_Cam_Web_Interface.
 
 Using an EC2 server to automate backups, for camera and video feeds while deleting data on the rpi.
 
@@ -28,6 +28,7 @@ sftp -i /path/my-key-pair.pem ec2-user@public_dns_name
 * sudo apt-get intall rsync
 * sudo apt-get install cron
 * crontab -e
+
 Text editor will apear type (This script will run ever day at 12 am) 
 
 0 0 * * * ~/RPI-Camera-EC2-Backup/ec2Script.sh
