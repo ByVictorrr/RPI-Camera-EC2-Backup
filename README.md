@@ -32,7 +32,7 @@ put ec2Script.sh .
 
 exit
 
-ssh i /path/my-key-pair.pem ec2-user@public_dns_name
+ssh -i /path/my-key-pair.pem ec2-user@public_dns_name
 
 sudo mkdir /var/www/html/Camera
 
